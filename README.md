@@ -1,6 +1,3 @@
-Here's a professional README for your **Expresso Churn Prediction** project:
-
----
 
 # **Expresso Churn Prediction**
 
