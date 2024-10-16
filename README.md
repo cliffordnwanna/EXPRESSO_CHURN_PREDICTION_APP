@@ -28,10 +28,6 @@ Expresso-Churn-Prediction/
 ├── app/                             # Streamlit web application
 │   └── app.py                       # Streamlit script for the web app
 │
-├── src/                             # Source files for training and model scripts
-│   ├── train_model.py               # Python script for training the model
-│   └── utils.py                     # Utility functions (e.g., data cleaning, preprocessing)
-│
 ├── requirements.txt                 # File for project dependencies
 ├── README.md                        # Project overview and documentation
 └── .gitignore                       # File to ignore unnecessary files on GitHub
