@@ -49,8 +49,8 @@ To get a copy of the project up and running on your local machine, follow these 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/Expresso-Churn-Prediction.git
-   cd Expresso-Churn-Prediction
+   git clone https://github.com/cliffordnwanna/EXPRESSO_CHURN_PREDICTION_APP.git
+   cd EXPRESSO_CHURN_PREDICTION_APP
    ```
 
 2. **Install Dependencies:**
@@ -60,17 +60,17 @@ To get a copy of the project up and running on your local machine, follow these 
 
 3. **Run the Web Application:**
    ```bash
-   streamlit run app/app.py
+   streamlit run APP/app.py
    ```
 
 ## **Usage**
 1. **Data Preprocessing**:
    - The dataset is cleaned by handling missing values, encoding categorical features, and removing outliers.
-   - The script `train_model.py` in the `src/` directory contains the code for data preprocessing and training the Random Forest model.
+   - The script `Data_cleaning.ipynb` in the `NOTEBOOK/` directory contains the code for data preprocessing and training the Random Forest model.
    - The trained model is saved as `main_trained_model_1.sav` in the `models/` directory.
 
 2. **Streamlit Web App**:
-   - The Streamlit application (`app/app.py`) allows users to input features and make churn predictions.
+   - The Streamlit application (`APP/app.py`) allows users to input features and make churn predictions.
    - Enter values for customer data fields, click the **"Make Prediction"** button, and see the prediction result (CHURN or NO CHURN).
 
 3. **Example Prediction**:
@@ -104,15 +104,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## **Contact**
 For any inquiries or suggestions, please reach out to:
-- **Name:** [Your Name]
-- **Email:** your.email@example.com
-- **GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
+- **Name:** Chukwuma Nwanna
+- **Email:** nwannachumaclifford@gmail.com
+- **GitHub:** [https://github.com/yourusername](https://github.com/cliffordnwanna)
 
----
 
-### **Notes**
-- Replace placeholders like `yourusername`, `Your Name`, and `your.email@example.com` with your actual details.
-- Make sure the dataset link is correct and accessible.
-- Consider adding visual elements (screenshots or images) to your README to make it more engaging.
 
 
