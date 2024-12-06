@@ -10,9 +10,9 @@ def download_file(url):
     return pickle.load(io.BytesIO(response.content))
 
 # URLs where the files are hosted
-MODEL_URL = "https://drive.google.com/file/d/1Tm3_Hccyj7QwNU2S938MiG97FgR9KtCm"
-FEATURES_URL = "https://drive.google.com/file/d/1GpUMFk6_z9S5GIMepaHGyF9SwPEjyg9V"
-ENCODERS_URL = "https://drive.google.com/file/d/1kT2AgFSyS9-9EiQPUT2VadWH_oEOzGY7"
+MODEL_URL = "https://drive.google.com/uc?export=download&id=1Tm3_Hccyj7QwNU2S938MiG97FgR9KtCm"
+FEATURES_URL = "https://drive.google.com/uc?export=download&id=1GpUMFk6_z9S5GIMepaHGyF9SwPEjyg9V"
+ENCODERS_URL = "https://drive.google.com/uc?export=download&id=1kT2AgFSyS9-9EiQPUT2VadWH_oEOzGY7"
 
 # Download and load files from URLs
 clf = download_file(MODEL_URL)
