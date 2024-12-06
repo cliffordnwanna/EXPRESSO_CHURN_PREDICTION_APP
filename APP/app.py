@@ -7,7 +7,11 @@ import io
 # Function to download and load models from URLs
 def download_file(url):
     response = requests.get(url)
+    response.raise_for_status()
+    if response.headers['Content-Type'] != 'application/octet-stream':
+        raise ValueError("Invalid file content. Ensure the file is a valid pickle file.")
     return pickle.load(io.BytesIO(response.content))
+
 
 # URLs where the files are hosted
 MODEL_URL = "https://drive.google.com/uc?export=download&id=1Tm3_Hccyj7QwNU2S938MiG97FgR9KtCm"
