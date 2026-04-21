@@ -1,3 +1,6 @@
 *.sav
 *.pkl
 *.csv
+*.joblib
+__pycache__/
+*.pyc
